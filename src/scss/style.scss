@@ -1,0 +1,47 @@
+$breakpoints: (
+	'xs-phone': 480px,
+	'phone': 576px,
+	'tablet': 768px,
+	'desktop': 1024px,
+	'widescreen': 1200px
+);
+
+$media-expressions: (
+	'screen': 'screen',
+	'print': 'print',
+	'handheld': 'handheld',
+	'landscape': '(orientation: landscape)',
+	'portrait': '(orientation: portrait)',
+	'retina2x': '(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)',
+	'retina3x': '(-webkit-min-device-pixel-ratio: 2.5), (min-resolution: 240dpi)'
+);
+
+@import 'components/normalize';
+
+@import 'components/variables';
+
+// NO
+@import 'components/include-media';
+
+@import 'components/mixins';
+
+// NO
+@import 'components/form';
+
+@import 'components/base';
+
+@import 'components/grid';
+
+@import 'components/button';
+
+@import 'components/nav';
+
+@import 'components/card';
+
+@import 'layout/common';
+
+@import 'layout/header';
+
+@import 'layout/footer';
+
+// @import '../css/slick/slick.css';

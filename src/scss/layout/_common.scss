@@ -1,0 +1,45 @@
+.wrapper {
+	overflow: hidden;
+	position: relative;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+// Обертка для полей формы
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+// Поля формы
+
+.form-control {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+}
+
+.form-control {
+	@include placeholder {
+		color: $red;
+	}
+
+	&:focus {
+		border-color: $yellow;
+	}
+}
+
+.grid {
+	img {
+		display: block;
+		width: 100%;
+	}
+}
+
+// .btn {
+//     color: red;
+// }
